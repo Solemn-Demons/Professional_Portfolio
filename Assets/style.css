@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+#top {
+    display: flex;
+    background-color: blueviolet;
+    font-family: 'Dancing Script';
+    font-size: 150%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#webnav {
+    background-color: aliceblue;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+#Inter {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: auto;
+    margin-left: 18%;
+}
+
+#Inter li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+img {
+   display: block;
+    margin-top: 3%;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    float: right;
+}
+
+#About {
+    display: block;
+    background-color: rgb(186, 141, 6);
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    color: rgb(39, 5, 120);
+    text-indent: 10px;
+}
+
+#About h2, #skill h2, #Pro h2 {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    align-items: center;
+}
+
+#me h3, #bio h3, #ed h3 {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    align-items: center;
+}
+
+#me {
+    display: block;
+    background-color: rgb(15, 199, 196);
+    color: rgb(6, 94, 94);
+    font-size: 18px;
+}
+
+#bio {
+    display: block;
+    background-color: blueviolet;
+    color: aliceblue;
+    list-style: none;
+}
+
+#ed {
+    display: block;
+    background-color: rgb(130, 3, 3);
+    color: rgb(78, 146, 241);
+}
+
+#skill {
+    display: block;
+    background-color: rgb(79, 59, 233);
+    color: black;
+}
+
+#Pro {
+    display: block;
+    background-color: rgb(10, 91, 34);
+    color: rgb(235, 225, 74);
+}
+
+li {
+    line-height: 40px;
+    font-size: 25px;
+}
